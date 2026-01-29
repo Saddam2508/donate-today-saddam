@@ -21,4 +21,10 @@
       bottom right;
     width: 100%;
   }
+
+  @media screen and (max-width: 1200px) {
+    .hero-img {
+      background-size: 60%, 90%, 110%;
+    }
+  }
 }
