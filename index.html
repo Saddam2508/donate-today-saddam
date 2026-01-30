@@ -19,10 +19,10 @@
     <!-- header section start -->
     <header class="bg-[#FAFAFA]">
       <div
-        class="banner container max-w-[1440px] mx-auto flex justify-between items-center"
+        class="banner container max-w-[1440px] mx-auto flex flex-col-reverse justify-center items-center gap-12 lg:flex-row lg:justify-between lg:items-center"
       >
-        <div class="banner-content max-w-[524px] space-y-5">
-          <h1 class="text-6xl font-extrabold">
+        <div class="banner-content md:w-[600px] space-y-5">
+          <h1 class="text-4xl md:text-4xl lg:text-6xl font-extrabold">
             Let’s Help Those Who Are More In Need
           </h1>
           <p class="text-[#707070]">
@@ -57,10 +57,10 @@
       <section id="tk">
         <div class="container max-w-[1440px] mx-auto">
           <div
-            class="donate-today-box py-[130px] flex flex-col justify-center items-center text-center space-y-12"
+            class="donate-today-box py-[60px] flex flex-col justify-center items-center text-center space-y-12 md:py-16"
           >
             <div class="tk-content max-w-[691px]">
-              <h2 class="text-[3.5rem] text-[#121212] font-bold">
+              <h2 class="text-4xl md:text-[3.5rem] text-[#121212] font-bold">
                 Donate Today
               </h2>
               <p class="text-[#707070]">
@@ -68,7 +68,7 @@
                 eam falli deterruisset. No duo populo animal noluisse, enim
               </p>
             </div>
-            <div class="tk-box flex gap-5">
+            <div class="tk-box grid grid-cols-3 md:flex gap-5">
               <div
                 class="tk-card py-10 px-6 bg-[#FAFAFA] flex justify-center items-center rounded-lg"
               >
@@ -116,10 +116,10 @@
       <section id="donate-plan">
         <div class="container max-w-[1440px] mx-auto">
           <div
-            class="donate-plan-box pb-[130px] flex flex-col justify-center items-center space-y-12"
+            class="donate-plan-box pb-[60px] md:pb-[130px] flex flex-col justify-center items-center space-y-12"
           >
             <div class="plan-content max-w-[691px]">
-              <h2 class="text-[3.5rem] text-[#121212] font-bold">
+              <h2 class="text-4xl md:text-[3.5rem] text-[#121212] font-bold">
                 Our Donate Plan
               </h2>
               <p class="text-[#707070]">
@@ -127,7 +127,7 @@
                 eam falli deterruisset. No duo populo animal noluisse, enim
               </p>
             </div>
-            <div class="plan-box grid grid-cols-3 gap-6">
+            <div class="plan-box grid grid-cols-1 md:grid-cols-3 gap-6">
               <div
                 class="plan-card py-16 px-6 bg-[#4f9da61a] flex flex-col gap-6 justify-start items-start rounded-lg"
               >
@@ -170,10 +170,12 @@
       </section>
       <!-- Donate Plan section end -->
       <!-- No More Homeless section start -->
-      <section id="homeless" class="mb-[100px]">
-        <div class="container max-w-[1440px] mx-auto flex justify-around">
+      <section id="homeless" class="mb-[60px] md:mb-[100px]">
+        <div
+          class="container max-w-[1440px] mx-auto grid grid-cols-1 gap-5 md:flex justify-around"
+        >
           <div class="homeless-content max-w-lg space-y-5">
-            <h2 class="text-[#121212] font-bold text-[3.25rem]">
+            <h2 class="text-[#121212] font-bold text-4xl md:text-[3.25rem]">
               No More Homeless, No More Hunger
             </h2>
             <p class="text-[#707070]">
@@ -197,12 +199,12 @@
       </section>
       <!-- No More Homeless section end -->
       <!-- Give Someone’s Life section start -->
-      <section id="give" class="mb-[100px]">
+      <section id="give" class="mb-[60px] md:mb-[100px]">
         <div
-          class="container max-w-[1440px] mx-auto flex flex-row-reverse justify-around"
+          class="container max-w-[1440px] mx-auto grid grid-cols-1 gap-5 md:flex flex-row-reverse justify-around"
         >
           <div class="give-content max-w-lg space-y-5">
-            <h2 class="text-[#121212] font-bold text-[3.25rem]">
+            <h2 class="text-[#121212] font-bold text-4xl md:text-[3.25rem]">
               Give Someone’s Life By Giving Of Yours
             </h2>
             <p class="text-[#707070]">
@@ -229,10 +231,10 @@
       <section id="subscribe">
         <div class="container max-w-[1440px] mx-auto">
           <div
-            class="subscribe-plan-box pb-[130px] flex flex-col justify-center items-center text-center space-y-12"
+            class="subscribe-plan-box pb-[60px] md:pb-[130px] flex flex-col justify-center items-center text-center space-y-12"
           >
             <div class="subscribe-content max-w-[691px]">
-              <h2 class="text-[3.5rem] text-[#121212] font-bold">
+              <h2 class="text-4xl md:text-[3.5rem] text-[#121212] font-bold">
                 Get My Updates
               </h2>
               <p class="text-[#707070]">
@@ -241,14 +243,14 @@
               </p>
             </div>
             <div
-              class="subscribe-button bg-[#FFF4D6] px-[189px] py-[76px] flex justify-center items-center rounded-lg"
+              class="subscribe-button bg-[#FFF4D6] px-5 md:px-[189px] py-[76px] flex justify-center items-center rounded-lg"
             >
               <input
                 type="text"
                 name=""
                 id=""
                 placeholder="Email"
-                class="bg-[#D9D9D9] px-5 py-4 outline-none rounded-lg"
+                class="bg-[#D9D9D9] px-4 py-4 outline-none rounded-lg"
               />
               <button
                 class="bg-[#FF5959] px-5 py-4 rounded-lg text-[#FFFFFF] text-[1rem] font-semibold cursor-pointer"
